@@ -8,7 +8,7 @@ from utils.trainer import train_model
 from models.model import model_ResNet, MsgDataset
 from models.resnet1d import *
 from torch.cuda.amp.grad_scaler import GradScaler
-from config import PTB_XL_CONFIG
+from config_PTB import PTB_XL_CONFIG
 from torchsampler import ImbalancedDatasetSampler
 from torch.utils.data.sampler import SubsetRandomSampler
 
